@@ -1,0 +1,33 @@
+{
+  "object": "model",
+  "version": 1,
+  "format": "gguf",
+  "source_url": "N/A",
+  "id": "mentalhealth",
+  "name": "mentalhealth",
+  "created": 1718865895065,
+  "description": "mentalhealth - user self import model",
+  "settings": {
+    "ctx_len": 4096,
+    "ngl": 0,
+    "embedding": false,
+    "prompt_template": "{system_message}\n### Instruction: {prompt}\n### Response:"
+  },
+  "parameters": {
+    "temperature": 0.7,
+    "top_p": 0.95,
+    "stream": true,
+    "max_tokens": 2048,
+    "stop": [
+      "<endofstring>"
+    ],
+    "frequency_penalty": 0,
+    "presence_penalty": 0
+  },
+  "metadata": {
+    "author": "User",
+    "tags": [],
+    "size": 0
+  },
+  "engine": "nitro"
+}
